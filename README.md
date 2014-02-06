@@ -17,20 +17,25 @@ Output:
 Requirements
 ============
 * opencv
-  apt-get install libopencv-highgui-dev libopencv-dev
+  `apt-get install libopencv-highgui-dev libopencv-dev`
 
 * compiler
+  `apt-get install build-essential`
 
-Compilation
+Building
 ===========
 
-g++ -o autocrop autocrop.cpp `pkg-config opencv --cflags --libs`
-chmod +x autocrop
+* set you pkg flags:
+
+PKG_FLAGS=`pkg-config opencv --cflags --libs`
+
+* run compilation
+`g++ -o autocrop autocrop.cpp $PKG_FLAGS ; chmod +x autocrop`
 
 Usage
 =====
 
-autocrop <input_image_path> <output_image_path>
+`autocrop <input_image_path> <output_image_path>`
 
 Example:
-./autocrop input.png output.png
+`./autocrop input.png output.png`
