@@ -7,11 +7,11 @@ Example:
 
 Input:
 
-![alttext](https://github.com/EndPointCorp/opencv_autocrop/blob/master/images/input.png "")
+![alttext](https://github.com/EndPointCorp/opencv_autocrop/blob/master/images/input.png?raw=true "")
 
 Output:
 
-![alttext](https://github.com/EndPointCorp/opencv_autocrop/blob/master/images/output.png "")
+![alttext](https://github.com/EndPointCorp/opencv_autocrop/blob/master/images/output.png?raw=true "")
 
 
 Requirements
